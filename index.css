@@ -1,0 +1,45 @@
+.header { grid-area: header; }
+.navbar { grid-area: navbar; }
+.content { grid-area: content; }
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'navbar navbar content content content content';
+    padding: 10px;
+  }
+
+#heading {
+    font-family: 'Palatino Linotype';
+    color: #191970;
+    padding: 10px;
+    border: 5px #B22222;
+    background-color: #00CED1;
+}
+
+.center {
+    text-align: center;
+}
+
+ul {
+    font-family: 'Palatino Linotype';
+    list-style-type: none;
+    margin: 0px;
+    padding: 50px;
+    width: 300px;
+    height: 1200px;
+    background-color: #FFDAB9;
+} 
+
+li a {
+    display: block;
+}
+
+.paragraph {
+    padding: 50px;
+}
+
+body {
+    background-color: #E6E6FA;
+}
